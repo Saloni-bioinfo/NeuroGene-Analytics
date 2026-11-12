@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-RESULTS = os.path.join(BASE, "results")
+RESULTS = BASE
 
 st.title("🧠 NeuroGene Analytics")
 st.subheader(
